@@ -16,7 +16,7 @@ public class MySqlControl {
 	{
 		ModelAndView mv = new ModelAndView();
 		
-		mv.setViewName("mysql");
+		mv.setViewName("mysql1");
 		return mv;
 }
 }
