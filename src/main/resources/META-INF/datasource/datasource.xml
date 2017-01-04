@@ -49,6 +49,5 @@ http://www.springframework.org/schema/tx/spring-tx.xsd">
 		</property>
 	</bean>
 	<context:annotation-config />
-	<jpa:repositories base-package="mysqlpackage"
-		entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager" />
+	<jpa:repositories base-package="mysqlpackage" entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager" />
 </beans>
